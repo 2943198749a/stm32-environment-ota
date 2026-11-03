@@ -1,0 +1,17 @@
+build/
+Objects/
+Listings/
+*.o
+*.obj
+*.axf
+*.hex
+*.map
+*.crf
+*.dep
+*.uvoptx
+*.uvguix.*
+ota_gateway_config_local.h
+.env
+/huanjing_HAL/docs/ota_word_work/
+*.htm
+*.build_log.*

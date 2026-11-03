@@ -1,0 +1,125 @@
+T927C 000:167.612   SEGGER J-Link V7.82 Log File
+T927C 000:167.752   DLL Compiled: Oct 13 2022 13:32:51
+T927C 000:167.764   Logging started @ 2026-08-03 08:02
+T927C 000:167.775 - 167.781ms
+T927C 000:167.791 JLINK_SetWarnOutHandler(...)
+T927C 000:167.804 - 0.018ms
+T927C 000:167.816 JLINK_OpenEx(...)
+T927C 000:171.112   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T927C 000:171.986   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T927C 000:176.530   Hardware: V7.00
+T927C 000:176.591   S/N: 20090928
+T927C 000:176.629   OEM: SEGGER
+T927C 000:176.667   Feature(s): JFlash, RDI, GDB, FlashDL, FlashBP
+T927C 000:178.883   TELNET listener socket opened on port 19021
+T927C 000:179.108   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T927C 000:179.282   WEBSRV Webserver running on local port 19080
+T927C 000:183.549 - 15.750ms returns "O.K."
+T927C 000:183.591 JLINK_GetEmuCaps()
+T927C 000:183.604 - 0.018ms returns 0x88EA5833
+T927C 000:183.620 JLINK_TIF_GetAvailable(...)
+T927C 000:184.307 - 0.702ms
+T927C 000:184.336 JLINK_SetErrorOutHandler(...)
+T927C 000:184.348 - 0.018ms
+T927C 000:184.373 JLINK_ExecCommand("ProjectFile = "D:\aiguigu\huanjing_freeRTOS_HAL\huanjing_HAL\MDK-ARM\JLinkSettings.ini"", ...). 
+T927C 000:193.707 - 9.348ms returns 0x00
+T927C 000:193.740 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T927C 000:193.997   Device "STM32F407VE" selected.
+T927C 000:194.350 - 0.605ms returns 0x00
+T927C 000:194.368 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T927C 000:194.383 - 0.007ms returns 0x01
+T927C 000:194.396 JLINK_GetHardwareVersion()
+T927C 000:194.408 - 0.017ms returns 70000
+T927C 000:194.424 JLINK_GetDLLVersion()
+T927C 000:194.435 - 0.017ms returns 78200
+T927C 000:194.448 JLINK_GetOEMString(...)
+T927C 000:194.461 JLINK_GetFirmwareString(...)
+T927C 000:194.472 - 0.017ms
+T927C 000:194.487 JLINK_GetDLLVersion()
+T927C 000:194.498 - 0.017ms returns 78200
+T927C 000:194.511 JLINK_GetCompileDateTime()
+T927C 000:194.522 - 0.017ms
+T927C 000:194.536 JLINK_GetFirmwareString(...)
+T927C 000:194.547 - 0.017ms
+T927C 000:194.560 JLINK_GetHardwareVersion()
+T927C 000:194.571 - 0.017ms returns 70000
+T927C 000:194.584 JLINK_GetSN()
+T927C 000:194.596 - 0.017ms returns 20090928
+T927C 000:194.609 JLINK_GetOEMString(...)
+T927C 000:194.623 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T927C 000:198.128 - 3.519ms returns 0x00
+T927C 000:198.152 JLINK_HasError()
+T927C 000:198.171 JLINK_SetSpeed(5000)
+T927C 000:198.743 - 0.606ms
+T927C 000:199.273 JLINK_HasError()
+T927C 000:199.295 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T927C 000:199.308 - 0.018ms returns JLINKARM_RESET_TYPE_NORMAL
+T927C 000:199.321 JLINK_Reset()
+T927C 000:199.931   InitTarget() start
+T927C 000:199.959    J-Link Script File: Executing InitTarget()
+T927C 000:203.129   Could not measure total IR len. TDO is constant high.
+T927C 000:204.104   Error: Scanning JTAG chain failed.
+T927C 000:204.132   Can not attach to CPU. Trying connect under reset.
+T927C 000:258.113   Could not measure total IR len. TDO is constant high.
+T927C 000:259.134   Error: Scanning JTAG chain failed.
+T927C 000:259.196   Connecting to CPU via connect under reset failed.
+T927C 000:310.304   InitTarget() end
+T927C 000:310.349   Connect failed. Resetting via Reset pin and trying again.
+T927C 000:372.940   InitTarget() start
+T927C 000:373.023    J-Link Script File: Executing InitTarget()
+T927C 000:376.219   Could not measure total IR len. TDO is constant high.
+T927C 000:377.224   Error: Scanning JTAG chain failed.
+T927C 000:377.252   Can not attach to CPU. Trying connect under reset.
+T927C 000:432.336   Could not measure total IR len. TDO is constant high.
+T927C 000:433.394   Error: Scanning JTAG chain failed.
+T927C 000:433.457   Connecting to CPU via connect under reset failed.
+T927C 000:484.175   InitTarget() end
+T927C 000:484.216 - 284.900ms
+T927C 000:484.289 JLINK_GetIdData(pIdData)
+T927C 000:484.915   InitTarget() start
+T927C 000:484.941    J-Link Script File: Executing InitTarget()
+T927C 000:488.116   Could not measure total IR len. TDO is constant high.
+T927C 000:489.127   Error: Scanning JTAG chain failed.
+T927C 000:489.155   Can not attach to CPU. Trying connect under reset.
+T927C 000:544.144   Could not measure total IR len. TDO is constant high.
+T927C 000:545.139   Error: Scanning JTAG chain failed.
+T927C 000:545.202   Connecting to CPU via connect under reset failed.
+T927C 000:596.571   InitTarget() end
+T927C 000:596.613   Connect failed. Resetting via Reset pin and trying again.
+T927C 000:659.684   InitTarget() start
+T927C 000:659.724    J-Link Script File: Executing InitTarget()
+T927C 000:662.872   Could not measure total IR len. TDO is constant high.
+T927C 000:663.875   Error: Scanning JTAG chain failed.
+T927C 000:663.895   Can not attach to CPU. Trying connect under reset.
+T927C 000:717.950   Could not measure total IR len. TDO is constant high.
+T927C 000:718.882   Error: Scanning JTAG chain failed.
+T927C 000:718.911   Connecting to CPU via connect under reset failed.
+T927C 000:769.789   InitTarget() end
+T927C 000:769.861 - 285.585ms
+T927C 000:770.007 JLINK_GetIdData(pIdData)
+T927C 000:770.676   InitTarget() start
+T927C 000:770.704    J-Link Script File: Executing InitTarget()
+T927C 000:773.874   Could not measure total IR len. TDO is constant high.
+T927C 000:774.911   Error: Scanning JTAG chain failed.
+T927C 000:774.953   Can not attach to CPU. Trying connect under reset.
+T927C 000:828.993   Could not measure total IR len. TDO is constant high.
+T927C 000:829.986   Error: Scanning JTAG chain failed.
+T927C 000:830.019   Connecting to CPU via connect under reset failed.
+T927C 000:881.380   InitTarget() end
+T927C 000:881.424   Connect failed. Resetting via Reset pin and trying again.
+T927C 000:944.040   InitTarget() start
+T927C 000:944.085    J-Link Script File: Executing InitTarget()
+T927C 000:947.226   Could not measure total IR len. TDO is constant high.
+T927C 000:948.214   Error: Scanning JTAG chain failed.
+T927C 000:948.240   Can not attach to CPU. Trying connect under reset.
+T927C 001:002.165   Could not measure total IR len. TDO is constant high.
+T927C 001:003.214   Error: Scanning JTAG chain failed.
+T927C 001:003.249   Connecting to CPU via connect under reset failed.
+T927C 001:053.857   InitTarget() end
+T927C 001:053.900 - 283.901ms
+T927C 001:065.110 JLINK_GetFirmwareString(...)
+T927C 001:065.141 - 0.038ms
+T927C 006:159.852 JLINK_Close()
+T927C 006:176.132 - 16.320ms
+T927C 006:176.179   
+T927C 006:176.191   Closed

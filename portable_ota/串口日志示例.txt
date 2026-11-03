@@ -1,0 +1,18 @@
+正常流程：
+BOOT: slot B
+OTA: version report sent.
+OTA: upgrade notice received.
+OTA: download v1.2.1 to slot A.
+OTA_READY
+OTA_ACK,0
+OTA_ACK,1
+OTA_OK
+BOOT_OK,v1.2.1
+云端 progress=100
+
+定位顺序：
+1. 没有 OTA_READY：检查 STM32 PA2/PA3、ESP32 GPIO6/GPIO7、115200 和共地。
+2. 没有 OTA_ACK：检查二进制帧 CRC16、序号和长度。
+3. 出现 file_size：云端文件大小和 HTTP Content-Length 不一致，重新上传 BIN。
+4. 出现 stm32_verify：检查槽位、SHA-256、向量表和链接地址。
+5. 传输后没有 BOOT_OK：不要直接报 100，检查 Bootloader 选择槽和应用确认逻辑。
